@@ -1,11 +1,9 @@
+import Balance from "./components/balance";
 
 function App() {
   return (
     <div className="App">
-      <div className="balance">
-        <p>My balance</p>
-        <span>$921.48</span>
-      </div>
+      <Balance />
       <div className="bar-chart">
         <h2>Spending - Last 7 days</h2>
 
