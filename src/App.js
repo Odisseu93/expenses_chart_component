@@ -2,24 +2,28 @@
 function App() {
   return (
     <div className="App">
-      My balance
-      $921.48
+      <div className="balance">
+        <p>My balance</p>
+        <span>$921.48</span>
+      </div>
+      <div className="bar-chart">
+        <h2>Spending - Last 7 days</h2>
 
-      Spending - Last 7 days
+        mon
+        tue
+        wed
+        thu
+        fri
+        sat
+        sun
+      </div>
+      <div className="total">
+        <span>Total this month</span>
+        <h2>$478.33</h2>
 
-      mon
-      tue
-      wed
-      thu
-      fri
-      sat
-      sun
-
-      Total this month
-      $478.33
-
-      +2.4%
-      from last month
+        <p>+2.4%</p>
+        <span>from last month</span>
+      </div>
     </div>
   );
 }
