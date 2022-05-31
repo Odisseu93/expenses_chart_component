@@ -1,5 +1,9 @@
 # Expenses chart component/Componente do gráfico de despesas
 
+<div align=center>
+  <img src="./src/design/desktop-preview.jpg"  width=50% />
+</div>
+
 ```diff 
 + eng
 ```
